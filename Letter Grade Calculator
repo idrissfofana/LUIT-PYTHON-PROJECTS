@@ -1,0 +1,16 @@
+#Grade Calculator
+# This program will help user enter a numerical grade value to get a letter grade
+
+points = int(input("Please enter points"))
+
+if points >= 90 and point <= 100:
+    print("Great Job, your grade is A!")
+elif points >= 80 and point < 90:
+    print("Good Job, your grade is B")
+elif points >= 70 and point < 80:
+    print("Can do better, your grade is C")
+elif points >= 60 and point < 70:
+    print("Need more work, your grade is D")
+else:
+    print("Try harder next time, your grade is F.")
+     
