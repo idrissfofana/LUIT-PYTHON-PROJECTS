@@ -1,0 +1,9 @@
+# This is a welcome message that includes the user's First Name and Last Name.
+
+# This will allow user to input their First and Last Name
+
+first_name = input("Hello, what is your first name: ")
+
+last_name = input("what is your last name: ")
+
+print("Welcome to LUIT" + " " + first_name + " " + last_name + " " + "!")
