@@ -1,0 +1,12 @@
+# Allow user input for Length and set to a variable
+length = int(input("Enter the length of the room in feet: "))
+
+# Allow user input for Width and set to a variable
+width = int(input("Enter the width of the room in feet: "))
+
+
+# Set Length X Width to a new variable
+area = length * width
+
+# Print a message that the Square Footage of the room is: Square Foot Variable
+print("The square foot of the room is:", area)
